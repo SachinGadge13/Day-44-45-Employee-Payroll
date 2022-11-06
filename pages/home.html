@@ -20,5 +20,48 @@
             </div>
         </div>
     </header>
+<!-- @author-Sachin_ -->
+
+    <div class="main-content">
+        <!-- UC 2 -->
+        <div class="header-content">
+            <div class="emp-detail-text">Employee Details
+                <div class="emp-count">10</div>
+            </div>
+            <a href="/pages/payroll_form.html" class="add-button">
+                <img src="/assets/icons/download-icon-add+24px-131985189453306350_0.svg" alt="">Add User
+            </a>
+        </div> <!-- header content -->
+        <div class="table-main">
+        <table id="display" class="table">
+            <!-- UC3 -->
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td><img class="profile" src="../assets/profile-images/Ellipse -2.png " alt=""></td>
+                <td>Narayan MahaDevan</td>
+                <td>Male</td>
+                <td>
+                    <div class="dept-label">HR</div>
+                    <div class="dept-label">Finance</div>
+                </td>
+                <td>3000000</td>
+                <td>1 nov 2020</td>
+                <td>
+                    <img onclick="remove(this)" src="../assets/icons/create-black-18dp.svg" alt="delete" id="1">
+                    <img onclick="update(this)" src="../assets/icons/delete-black-18dp.svg" alt="delete" id="1">
+                </td>
+            </tr>
+        </table>
+        </div> <!--Table main-->
+    </div> <!--main content-->
 </body>
+
 </html>
